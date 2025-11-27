@@ -1,11 +1,17 @@
 export const LANGUAGES = {
+  en: "English",
   hi: "Hindi",
+  es: "Spanish",
+  fr: "French",
+  de: "German",
+  ja: "Japanese",
+  ko: "Korean",
+  ru: "Russian",
+  ar: "Arabic",
   ta: "Tamil",
   te: "Telugu",
-  bn: "Bengali",
-  mr: "Marathi",
-  gu: "Gujarati",
   ml: "Malayalam",
-  pa: "Punjabi",
-  en: "English"
+  bn: "Bengali",
+  gu: "Gujarati",
+  mr: "Marathi",
 };

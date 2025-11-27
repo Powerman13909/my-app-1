@@ -18,14 +18,12 @@ function App() {
       <h2>Translator App</h2>
 
       <div style={{ display: "flex", gap: 10 }}>
-        {/* FROM language */}
         <select value={from} onChange={(e) => setFrom(e.target.value)}>
           {Object.entries(LANGUAGES).map(([code, name]) => (
             <option key={code} value={code}>{name}</option>
           ))}
         </select>
 
-        {/* TO language */}
         <select value={to} onChange={(e) => setTo(e.target.value)}>
           {Object.entries(LANGUAGES).map(([code, name]) => (
             <option key={code} value={code}>{name}</option>
@@ -35,7 +33,7 @@ function App() {
 
       <textarea
         value={input}
-        onChange={e => setInput(e.target.value)}
+        onChange={(e) => setInput(e.target.value)}
         placeholder="Type text here..."
         style={{ width: "100%", height: 80, marginTop: 10 }}
       />
