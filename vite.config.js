@@ -13,7 +13,7 @@ export default defineConfig({
         short_name: 'MyApp',
         display: 'standalone',
         start_url: '/',
-        background_color: '#ffffff',
+        background_color: '#2c0a0a0e',
         theme_color: '#ffffff',
         icons: [
           {
